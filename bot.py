@@ -3,10 +3,10 @@ from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.keys import Keys
 import time
 
+CHROME_DRIVER_PATH = YOUR_CHROME_DRIVER_PATH
 ACCOUNT_NAME = YOUR_ACCOUNT_NAME
 ACCOUNT_PASSWORD = YOUR_ACCOUNT_PASSWORD
 SEARCH_ACCOUNT = SEARCH_ACCOUNT_NAME
-CHROME_DRIVER_PATH = YOUR_CHROME_DRIVER_PATH
 
 class Bot:
 
